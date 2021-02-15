@@ -10,5 +10,5 @@ cd docker-test
 # Login for private Docker Repository
 docker login
 docker pull daamdaamdev/docker-test
-docker run -p 80:80 -v /home/Docker-test/Project:/var/www/html daamdaamdev/docker-test
+docker run -p 80:80 -v /home/docker-test/Project:/var/www/html daamdaamdev/docker-test
 </pre>
